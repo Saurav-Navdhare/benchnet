@@ -9,8 +9,8 @@
       		$fextention=pathinfo($fname,PATHINFO_EXTENSION);
        		$allowed=array('csv');
        	 	if (!in_array($fextention, $allowed)) {
-      	    	$_SESSION['status']="invalid";
-				header("Location:add-student.php");
+      	    $_SESSION['status']="invalid";
+				    header("Location:add-student.php");
        	 }
       	  else{
        	    if ($_FILES["table"]["size"] > 0) {

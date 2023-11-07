@@ -34,7 +34,7 @@
 				</form>
 				<div class="footer">
 					<h1 class="footer-font1">Project By -</h1>
-					<p class="footer-font2">Krisha Asnani &nbsp&nbsp Madhav Parikh &nbsp&nbsp Shivansh Makwana</p>
+					<p class="footer-font2">Smit Sutariya &nbsp&nbsp Saurav Navdhare</p>
 					<form action="redirect.php" method="POST">
 						<input type="submit" class="admin-btn" name="admin" value="Admin login">
 					</form>
